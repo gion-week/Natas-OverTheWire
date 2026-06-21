@@ -27,17 +27,17 @@ Ogni cartella `level-XX` rappresenta la risoluzione del livello XX, ovvero i pas
 
 | Livello | Argomento principale | Completato |
 |---------|----------------------|:----------:|
-| [Level 0](./level-00/README.md) | Ispezione sorgente HTML | ☐ |
-| [Level 1](./level-01/README.md) | Ispezione sorgente HTML, tasto destro disabilitato | ☐ |
-| [Level 2](./level-02/README.md) | Directory listing, file nascosti sul server web | ☐ |
-| [Level 3](./level-03/README.md) | `robots.txt`, directory listing | ☐ |
-| [Level 4](./level-04/README.md) | HTTP Referer header, controllo accessi lato server | ☐ |
-| [Level 5](./level-05/README.md) | Cookie manipulation | ☐ |
-| [Level 6](./level-06/README.md) | Inclusione file PHP (`include`), ispezione sorgente | ☐ |
-| [Level 7](./level-07/README.md) | Local File Inclusion (LFI) | ☐ |
-| [Level 8](./level-08/README.md) | Decodifica multi-step (`base64`, `strrev`, `bin2hex`) | ☐ |
-| [Level 9](./level-09/README.md) | Command injection tramite `passthru()` e `grep` | ☐ |
-| [Level 10](./level-10/README.md) | Command injection con filtro su caratteri speciali | ☐ |
+| [Level 0](./level-00/README.md) | Ispezione sorgente HTML | ✅ |
+| [Level 1](./level-01/README.md) | Ispezione sorgente HTML, tasto destro disabilitato | ✅ |
+| [Level 2](./level-02/README.md) | Directory listing, file nascosti sul server web | ✅ |
+| [Level 3](./level-03/README.md) | `robots.txt`, directory listing | ✅ |
+| [Level 4](./level-04/README.md) | HTTP Referer header, controllo accessi lato server | ✅ |
+| [Level 5](./level-05/README.md) | Cookie manipulation | ✅ |
+| [Level 6](./level-06/README.md) | Inclusione file PHP (`include`), ispezione sorgente | ✅ |
+| [Level 7](./level-07/README.md) | Local File Inclusion (LFI) | ✅ |
+| [Level 8](./level-08/README.md) | Decodifica multi-step (`base64`, `strrev`, `bin2hex`) | ✅ |
+| [Level 9](./level-09/README.md) | Command injection tramite `passthru()` e `grep` | ✅ |
+| [Level 10](./level-10/README.md) | Command injection con filtro su caratteri speciali | ✅ |
 | [Level 11](./level-11/README.md) | XOR cipher, manipolazione cookie cifrati | ☐ |
 | [Level 12](./level-12/README.md) | Upload file, PHP webshell, estensione arbitraria | ☐ |
 | [Level 13](./level-13/README.md) | Upload con controllo magic bytes (`exif_imagetype`), bypass | ☐ |
