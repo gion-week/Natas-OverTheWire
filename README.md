@@ -38,7 +38,7 @@ Ogni cartella `level-XX` rappresenta la risoluzione del livello XX, ovvero i pas
 | [Level 8](./level-08/README.md) | Decodifica multi-step (`base64`, `strrev`, `bin2hex`) | ✅ |
 | [Level 9](./level-09/README.md) | Command injection tramite `passthru()` e `grep` | ✅ |
 | [Level 10](./level-10/README.md) | Command injection con filtro su caratteri speciali | ✅ |
-| [Level 11](./level-11/README.md) | XOR cipher, manipolazione cookie cifrati | ☐ |
+| [Level 11](./level-11/README.md) | XOR cipher, manipolazione cookie cifrati | ✅ |
 | [Level 12](./level-12/README.md) | Upload file, PHP webshell, estensione arbitraria | ☐ |
 | [Level 13](./level-13/README.md) | Upload con controllo magic bytes (`exif_imagetype`), bypass | ☐ |
 | [Level 14](./level-14/README.md) | SQL injection, bypass autenticazione | ☐ |
