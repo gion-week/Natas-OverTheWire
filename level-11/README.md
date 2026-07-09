@@ -1,3 +1,5 @@
+<!-- portfolio-desc: Cifrario XOR a chiave ripetuta e known-plaintext attack per forgiare il cookie di sessione. -->
+
 # Natas Level 11 → 12
 
 ## Obiettivo

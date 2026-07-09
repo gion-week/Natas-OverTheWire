@@ -1,0 +1,44 @@
+# Natas OverTheWire — Writeup Repository
+
+## Scopo
+Documentazione dei livelli Natas di OverTheWire. Ogni livello ha una cartella
+dedicata con un README.md di writeup e una sottocartella screenshots/.
+
+## Struttura
+_template/README.md        # template base per nuovi livelli — leggere sempre prima
+level-XX/README.md         # writeup del livello (presenti per level-00 → level-10)
+level-XX/screenshots/      # screenshot del livello (.gitkeep se vuota)
+
+## Stato attuale
+- Completati con README: level-00 → level-10
+- level-11: screenshots presenti, README da creare
+- level-12 → level-34: cartelle vuote, da completare
+
+## Come creare un nuovo writeup
+1. Leggere _template/README.md per la struttura delle sezioni
+2. Leggere almeno due livelli già completati (es. level-08, level-09) per
+   capire il tono, il livello di dettaglio e le convenzioni in uso
+3. Creare level-XX/README.md rispettando esattamente quella struttura
+
+## Regole ferme sul formato
+- Lingua: italiano in tutto il documento
+- Ogni step deve spiegare il ragionamento che porta all'azione, non solo
+  descrivere l'azione stessa
+- Le note finali devono restare nell'ambito concettuale del livello:
+  non introdurre argomenti non toccati dalla challenge
+- I riferimenti agli screenshot usano path relativo: ./screenshots/XX-nome.png
+- Le password trovate vanno scritte come [REDACTED] nel testo
+- Non inventare mai password, output di comandi o comportamenti della pagina:
+  se non è nelle istruzioni fornite, chiedere
+- Ogni README deve avere come prima riga il commento
+  `<!-- portfolio-desc: ... -->` con una frase breve di sintesi: è la
+  descrizione usata dal sito portfolio. Senza di essa la pubblicazione di un
+  livello nuovo fallisce.
+
+## Cosa NON fare
+- Non modificare i file in _template/ senza esplicita richiesta
+- Non rinominare o spostare screenshot esistenti
+- Non eliminare .gitkeep dalle cartelle vuote
+- Non aggiungere sezioni non previste dal template senza chiedere
+- Non completare un livello basandosi su conoscenza propria della challenge:
+  il contenuto deve venire dalle istruzioni che fornisce l'utente
