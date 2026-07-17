@@ -39,29 +39,29 @@ Ogni cartella `level-XX` rappresenta la risoluzione del livello XX, ovvero i pas
 | [Level 9](./level-09/README.md) | Command injection tramite `passthru()` e `grep` | ✅ |
 | [Level 10](./level-10/README.md) | Command injection con filtro su caratteri speciali | ✅ |
 | [Level 11](./level-11/README.md) | XOR cipher, manipolazione cookie cifrati | ✅ |
-| [Level 12](./level-12/README.md) | Upload file, PHP webshell, estensione arbitraria | ☐ |
-| [Level 13](./level-13/README.md) | Upload con controllo magic bytes (`exif_imagetype`), bypass | ☐ |
-| [Level 14](./level-14/README.md) | SQL injection, bypass autenticazione | ☐ |
-| [Level 15](./level-15/README.md) | Blind SQL injection (boolean-based) | ☐ |
-| [Level 16](./level-16/README.md) | Command injection con filtro esteso, subshell `$()` | ☐ |
-| [Level 17](./level-17/README.md) | Blind SQL injection senza output visibile | ☐ |
-| [Level 18](./level-18/README.md) | Brute force session ID sequenziale | ☐ |
-| [Level 19](./level-19/README.md) | Brute force session ID non sequenziale (encoded) | ☐ |
-| [Level 20](./level-20/README.md) | Custom session handler, newline injection | ☐ |
-| [Level 21](./level-21/README.md) | Sessioni condivise tra applicazioni web distinte | ☐ |
-| [Level 22](./level-22/README.md) | Redirect PHP via `header()`, bypass redirect | ☐ |
-| [Level 23](./level-23/README.md) | Confronto stringa debole con `strstr()` e cast implicito | ☐ |
-| [Level 24](./level-24/README.md) | `strcmp()` bypass con array PHP | ☐ |
-| [Level 25](./level-25/README.md) | LFI con path traversal filtering, log poisoning | ☐ |
-| [Level 26](./level-26/README.md) | PHP object injection (`unserialize`) | ☐ |
-| [Level 27](./level-27/README.md) | SQL truncation attack | ☐ |
-| [Level 28](./level-28/README.md) | SQL injection in query cifrata | ☐ |
-| [Level 29](./level-29/README.md) | Perl CGI, null byte injection / command injection | ☐ |
-| [Level 30](./level-30/README.md) |  | ☐ |
-| [Level 31](./level-31/README.md) |  | ☐ |
-| [Level 32](./level-32/README.md) |  | ☐ |
-| [Level 33](./level-33/README.md) |  | ☐ |
-| [Level 34](./level-34/README.md) |  | ☐ |
+| [Level 12](./level-12/README.md) | Upload file, PHP webshell, estensione arbitraria | ✅ |
+| [Level 13](./level-13/README.md) | Upload con controllo magic bytes (`exif_imagetype`), bypass | ✅ |
+| [Level 14](./level-14/README.md) | SQL injection, bypass autenticazione | ✅ |
+| [Level 15](./level-15/README.md) | Blind SQL injection (boolean-based) | ✅ |
+| Level 16 |  | ☐ |
+| Level 17 |  | ☐ |
+| Level 18 |  | ☐ |
+| Level 19 |  | ☐ |
+| Level 20 |  | ☐ |
+| Level 21 |  | ☐ |
+| Level 22 |  | ☐ |
+| Level 23 |  | ☐ |
+| Level 24 |  | ☐ |
+| Level 25 |  | ☐ |
+| Level 26 |  | ☐ |
+| Level 27 |  | ☐ |
+| Level 28 |  | ☐ |
+| Level 29 |  | ☐ |
+| Level 30 |  | ☐ |
+| Level 31 |  | ☐ |
+| Level 32 |  | ☐ |
+| Level 33 |  | ☐ |
+| Level 34 |  | ☐ |
 
 ---
 
