@@ -43,7 +43,7 @@ Ogni cartella `level-XX` rappresenta la risoluzione del livello XX, ovvero i pas
 | [Level 13](./level-13/README.md) | Upload con controllo magic bytes (`exif_imagetype`), bypass | ✅ |
 | [Level 14](./level-14/README.md) | SQL injection, bypass autenticazione | ✅ |
 | [Level 15](./level-15/README.md) | Blind SQL injection (boolean-based) | ✅ |
-| Level 16 |  | ☐ |
+| [Level 16](./level-16/README.md) | Blind OS command injection, bypass blacklist con `$(...)` | ✅ |
 | Level 17 |  | ☐ |
 | Level 18 |  | ☐ |
 | Level 19 |  | ☐ |

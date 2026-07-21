@@ -29,3 +29,14 @@ dipendenze, mantenendo i version floor (es. `requests>=2.32`).
   ```bash
   python natas15_blind_sqli.py --password <password_natas15> --verbose
   ```
+
+- **`natas16_blind_command_injection.py`** — Blind OS command injection boolean-based per
+  natas16: estrae la password di natas17 (`/etc/natas_webpass/natas17`) un carattere alla
+  volta, aggirando la blacklist con una command substitution `$(...)` e usando le parole
+  mostrate da `grep` come oracolo booleano. Nessuna credenziale hardcoded: la password di
+  accesso va passata con `--password`. Scansione lineare di default, `--binary` come
+  ottimizzazione (~225 richieste invece di ~1040).
+
+  ```bash
+  python natas16_blind_command_injection.py --password <password_natas16> --binary
+  ```
